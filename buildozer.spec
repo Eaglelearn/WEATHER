@@ -1,15 +1,17 @@
 [app]
 title = Weather Forecast
-package.name = weatherapp
+package.name = weatherforecast
 package.domain = org.spaceexplorer
+
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
+
 version = 1.0.0
-requirements = python3,kivy,plyer,certifi
+
+requirements = python3,kivy==2.2.1,plyer,certifi
+
 orientation = portrait
-osx.python_version = 3
-osx.kivy_version = 2.2.0
-fullscreen = 0
+
 android.permissions = INTERNET,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION
 android.api = 30
 android.minapi = 21
